@@ -73,6 +73,9 @@
 }
 
 .modal-container {
+  position: fixed;
+  width: 70%;
+  top: 30%;
   background-color: white;
   margin: 0 15%;
   padding: 0 5% 2%;
@@ -84,12 +87,6 @@
 
 .flex-end {
   justify-content: flex-end;
-}
-
-.modal-clicked {
-  position: fixed;
-  left: 13%;
-  top: 20%;
 }
 
 .container-clicked {
