@@ -1,0 +1,25 @@
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.entry-spacing {
+  margin-top: 200px;
+}
+
+.add-entry {
+  padding: 10px 40px;
+}
