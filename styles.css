@@ -23,3 +23,12 @@
 .add-entry {
   padding: 10px 40px;
 }
+
+.add-entry:hover {
+  cursor: pointer;
+  background-color: rgb(156 188 237);
+}
+
+.add-entry:active {
+  transform: translateY(0.25rem);
+}
