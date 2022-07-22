@@ -32,3 +32,11 @@
 .add-entry:active {
   transform: translateY(0.25rem);
 }
+
+.space-between {
+  justify-content: space-between;
+}
+
+.column-third {
+  width: calc(100% / 3);
+}
