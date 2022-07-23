@@ -29,7 +29,7 @@
 }
 
 .entry-spacing {
-  margin-top: 200px;
+  margin-top: 40px;
 }
 
 .add-entry {
@@ -46,7 +46,15 @@
   background-color: rgb(156 188 237);
 }
 
-.add-entry:active {
+.day {
+  text-align: center;
+  border: solid 2px black;
+  margin: 1rem;
+  padding: 20% 0;
+}
+
+.add-entry:active,
+.day:active {
   transform: translateY(0.25rem);
 }
 
@@ -75,7 +83,7 @@
 .modal-container {
   position: fixed;
   width: 70%;
-  top: 30%;
+  top: 20%;
   background-color: white;
   margin: 0 15%;
   padding: 0 5% 2%;
@@ -92,4 +100,13 @@
 .container-clicked {
   background-color: rgb(0 0 0 / 50%);
   height: 100vh;
+}
+
+.column-seventh {
+  width: calc(100% / 7);
+}
+
+.day:hover {
+  background-color: rgb(230, 230, 230);
+  cursor: pointer;
 }
